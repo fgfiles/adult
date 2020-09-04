@@ -1,0 +1,245 @@
+/**
+ * =============================================================================
+ * This is the file where all your styling should go in.
+ * Instead of modifying the styles found in the monogatari.css file or others,
+ * you should overwrite those styles in this file.
+ *
+ * The CSS selectors shown are not an extensive list but they are the most
+ * common you might want to change. To find what other elements are available,
+ * you can take a look at the monogatari.css file or use your browser's dev
+ * tools to inspect the elements.
+ * =============================================================================
+**/
+
+/**
+ * ===========================
+ * General Styling
+ * ===========================
+**/
+
+/* General Style */
+body {
+
+}
+
+/* Simple Button styles*/
+button {
+
+}
+
+/* Simple Button Style on Hover */
+button:hover {
+
+}
+
+/* General Styling for Menu Screens */
+[data-menu] {
+
+}
+
+/**
+ * ===========================
+ * Main Menu Styling
+ * ===========================
+**/
+
+/* Main Menu Styling */
+[data-menu="main"] {
+
+}
+
+/* Main Menu Buttons Styling */
+[data-menu="main"] button {
+
+}
+
+/**
+ * ===========================
+ * Save and Load Menus Styling
+ * ===========================
+**/
+
+/* Slots Style */
+[data-ui="slots"] figure {
+
+}
+
+/* Slot's Image Style */
+[data-ui="slots"] img {
+
+}
+
+/* Slots Title Style */
+[data-ui="slots"] figcaption {
+
+}
+
+/* Slots Delete Button Style */
+[data-ui="slots"] button {
+
+}
+
+/**
+ * ===========================
+ * Game Elements Styling
+ * ===========================
+**/
+
+/* Choice Buttons style */
+[data-ui="choices"] button {
+
+}
+
+/* Choice Button Style on Hover */
+[data-ui="choices"] button:hover {
+
+}
+
+/* Text Box styling */
+[data-ui="text"] {
+
+}
+
+/* Character Name Style */
+[data-ui="who"] {
+
+}
+
+/* Style for Centered Text */
+[data-ui="centered"] {
+
+}
+
+/* Character Images Styles */
+#game [data-character] {
+
+}
+
+/* Other Images Styles */
+#game [data-image] {
+
+}
+
+/**
+ * ===========================
+ * Quick Menu Styling
+ * ===========================
+**/
+
+/* These styles are applied to the Mobile version of the Quick Menu */
+
+/* Quick Menu Style */
+[data-ui="quick-menu"] {
+
+}
+
+/* Quick Menu Buttons Style */
+[data-ui="quick-menu"] span {
+
+}
+
+/* Quick Menu Buttons Style on Hover */
+[data-ui="quick-menu"] span:hover {
+
+}
+
+/* Quick Menu Buttons Icon Style */
+[data-ui="quick-menu"] > span > .fa {
+
+}
+
+/* Styles for the desktop version of the Quick Menu*/
+@media screen and (min-width: 37.56255em) {
+
+	/* Quick Menu Style */
+	[data-ui="quick-menu"] {
+
+	}
+
+	/* Quick Menu Buttons Style */
+	[data-ui="quick-menu"] span {
+
+	}
+
+	/* Quick Menu Buttons Style on Hover */
+	[data-ui="quick-menu"] span:hover {
+
+	}
+	html {
+	    overflow: hidden;
+	}
+
+	@keyframes scrollFrames {
+	 0% {
+	    transform:translateY(-1050px);
+	  }
+	  100% {
+	    transform:translateY(0%);
+	  }
+	}
+
+	.scroll {
+	    height: 2040px;
+	    animation: scrollFrames 6s ease-in-out 0s;
+	}
+
+	.mac {
+	    width: 391px;
+	    height: 123px;
+	    background: url("../img/ui/macbutton_idle.png");
+	}
+
+	.mac:hover {
+	    width: 391px;
+	    height: 123px;
+	    background: url("../img/ui/macbutton_hover.png");
+	}
+	.pc {
+	    width: 392px;
+	    height: 121px;
+	    background: url("../img/ui/pcbutton_idle.png");
+	}
+
+	.pc:hover {
+	    width: 392px;
+	    height: 121px;
+	    background: url("../img/ui/pcbutton_hover.png");
+	}
+	.version {
+	    width: 391px;
+	    height: 137px;
+	    background: url("../img/ui/versionbutton_idle.png");
+	}
+	.patreon {
+	    width: 806px;
+	    height: 167px;
+	    background: url("../img/ui/patreonbutton_idle.png");
+	}
+
+	.patreon:hover {
+	    width: 806px;
+	    height: 167px;
+	    background: url("../img/ui/patreonbutton_hover.png");
+	}
+	.bottoms {
+    position: absolute;
+    bottom: 0;
+    margin: 25px;
+	}
+
+	.bottoms2 {
+    position: absolute;
+    bottom: 20;
+    margin: 25px;
+	}
+	.bottoms3 {
+    position: absolute;
+    bottom: 150px;
+    margin: 25px;
+	}
+	.bottoms4 {
+    position: absolute;
+    bottom: 280px;
+    margin: 25px;
+	}
+}
