@@ -1,0 +1,5 @@
+﻿REM GoldWave
+FILE "Birds.m4a" BINARY
+  TRACK 01 AUDIO
+    TITLE "Tempo: 120.0"
+    INDEX 01 00:00:00
