@@ -1,0 +1,7 @@
+<block:-1,-2,20,20,720,center,credits>
+\c[17]XGN!\c[0]
+
+\c[27]Become a supporter OF XGN\c[0]
+
+
+</block>
